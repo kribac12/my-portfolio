@@ -1,14 +1,13 @@
+import Skills from "../../components/Skills";
+import Projects from "../../components/Projects";
+import About from "../../components/About";
+
 function Home() {
   return (
     <div>
-      {/* Example Home structure with sections */}
-      <section id="skills" className="min-h-screen">
-        {/* Skills content */}
-      </section>
-      <section id="projects" className="min-h-screen">
-        {/* Projects content */}
-      </section>
-      {/* More sections as needed */}
+      <Projects />
+      <Skills />
+      <About />
     </div>
   );
 }
