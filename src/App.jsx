@@ -1,13 +1,16 @@
-import "./App.css";
+import { Suspense, lazy } from "react";
+import Layout from "./components/Layout";
 
-function App() {
+const Home = lazy(() => import("./pages/Home"));
+
+const App = () => {
   return (
-    <>
-      <div>
-        <h1 className="text-3xl font-bold">Hello world!</h1>
-      </div>
-    </>
+    <Suspense fallback={<div>Loading...</div>}>
+      <Layout>
+        <Home />
+      </Layout>
+    </Suspense>
   );
-}
+};
 
 export default App;
