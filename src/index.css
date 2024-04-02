@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply text-black bg-white;
+}
+
+a {
+  @apply text-accent hover:text-accent-dark;
+}
+
+@layer utilities {
+  .text-accent {
+    color: #e56258;
+  }
+  .bg-accent {
+    background-color: #e56258;
+  }
+  .text-accent-dark:hover {
+    color: darken(#e56258, 5%);
+  }
+  .bg-card {
+    background-color: #f9fafb;
+  }
+}
