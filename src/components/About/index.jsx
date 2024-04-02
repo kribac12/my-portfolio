@@ -1,5 +1,10 @@
 function About() {
-  return <section id="about" className="max-w-6xl mx-auto px-4 py-10 bg-[#ffffff] text-black"></section>;
+  return (
+    <section id="about" className="max-w-6xl mx-auto px-4 py-10 bg-[#ffffff] text-black">
+      {" "}
+      <h2 className="text-3xl font-bold mb-6">About Me</h2>
+    </section>
+  );
 }
 
 export default About;
