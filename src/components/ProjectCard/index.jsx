@@ -2,7 +2,7 @@ import PropTypes from "prop-types";
 
 function ProjectCard({ title, description, imageUrl, demoUrl, repoUrl }) {
   return (
-    <div className="bg-gray-100 p-4 rounded-lg shadow space-y-4">
+    <div className="bg-white p-4 rounded-lg shadow space-y-4">
       <img
         src={imageUrl}
         alt={title}
@@ -17,15 +17,15 @@ function ProjectCard({ title, description, imageUrl, demoUrl, repoUrl }) {
           href={demoUrl}
           target="_blank"
           rel="noopener noreferrer"
-          className="inline-block bg-gray-500 text-white px-4 py-2 rounded hover:bg-gray-700 transition-colors duration-150 ease-in-out">
+          className="inline-block bg-accentColor text-white px-4 py-2 rounded hover:bg-accentColorDark transition-colors duration-150 ease-in-out">
           Live Demo
         </a>
-        {" | "}
+        {"  "}
         <a
           href={repoUrl}
           target="_blank"
           rel="noopener noreferrer"
-          className="inline-block bg-gray-500 text-white px-4 py-2 rounded hover:bg-gray-700 transition-colors duration-150 ease-in-out ml-2">
+          className="inline-block bg-lightColor text-black px-4 py-2 rounded hover:bg-lightColorDark transition-colors duration-150 ease-in-out ml-2">
           GitHub Repo
         </a>
       </div>
