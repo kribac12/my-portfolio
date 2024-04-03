@@ -6,7 +6,7 @@ function Layout({ children }) {
   return (
     <>
       <Header />
-      <main className="mx-auto px-4">{children}</main>
+      <main className="mx-auto">{children}</main>
       <Footer />
     </>
   );

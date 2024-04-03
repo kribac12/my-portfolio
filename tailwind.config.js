@@ -5,8 +5,10 @@ export default {
       colors: {
         accentColor: "#e56258",
         accentColorDark: "#e04439",
-        buttonColor: "#E5A958",
-        buttonColorDark: "#dc8c22",
+        customColor: "#E5A958",
+        customColorDark: "#dc8c22",
+        lightColor: "#f3f3f1",
+        lightColorDark: "#eeeeeb",
       },
     },
   },

@@ -1,6 +1,6 @@
 import PropTypes from "prop-types";
 
-function ProjectCard({ title, imageUrl, demoUrl, repoUrl }) {
+function ProjectCard({ title, description, imageUrl, demoUrl, repoUrl }) {
   return (
     <div className="bg-gray-100 p-4 rounded-lg shadow space-y-4">
       <img
@@ -11,6 +11,7 @@ function ProjectCard({ title, imageUrl, demoUrl, repoUrl }) {
       />
 
       <h3 className="text-lg font-semibold">{title}</h3>
+      <p className="">{description}</p>
       <div>
         <a
           href={demoUrl}
@@ -34,6 +35,7 @@ function ProjectCard({ title, imageUrl, demoUrl, repoUrl }) {
 
 ProjectCard.propTypes = {
   title: PropTypes.string.isRequired,
+  description: PropTypes.string.isRequired,
   imageUrl: PropTypes.string.isRequired,
   demoUrl: PropTypes.string.isRequired,
   repoUrl: PropTypes.string.isRequired,
