@@ -10,6 +10,10 @@ a {
   @apply text-accent hover:text-accent-dark;
 }
 
+.nav-buttons button {
+  @apply uppercase  hover:bg-accentColor hover:text-white;
+}
+
 @layer utilities {
   .text-accent {
     color: #e56258;
