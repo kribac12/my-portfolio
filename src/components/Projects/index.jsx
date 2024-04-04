@@ -53,10 +53,9 @@ const projectsData = [
 
 function Projects() {
   return (
-    <section id="projects" className="px-4 py-10 mt-4 bg-lightColor text-black">
+    <section id="projects" className="px-4 py-20 mt-4 bg-lightColor text-black">
       <div className="max-w-6xl mx-auto">
-        <h2 className="uppercase text-4xl font-light mb-6">Projects</h2>
-
+        <h2 className="uppercase text-4xl font-light mb-6">These are my projects ..</h2>
         <div className="grid grid-cols-1  md:grid-cols-2 gap-6">
           {projectsData.map((project, index) => (
             <ProjectCard
