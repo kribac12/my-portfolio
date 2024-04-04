@@ -1,4 +1,4 @@
-import profileImage from "../../assets/images/profile-image.jpg";
+import profileImage from "../../assets/images/profile-image.png";
 import EmailButton from "../EmailButton";
 import NavButtons from "../NavButtons";
 
