@@ -1,6 +1,6 @@
 function Contact() {
   return (
-    <section id="contact" className="max-w-6xl mx-auto px-4 py-40 bg-[#ffffff] text-black">
+    <section id="contact" className="max-w-6xl mx-auto px-4 py-20 bg-[#ffffff] text-black mt-[100px]">
       <h2 className=" text-5xl md:text-8xl font-bold text-center mb-6">
         Enough about me, now I want to know <span className="bg-accentColor text-white">about you.</span>
       </h2>

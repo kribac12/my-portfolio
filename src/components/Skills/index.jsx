@@ -16,8 +16,8 @@ const mySkills = [
 function Skills() {
   return (
     <section id="skills" className="max-w-6xl mx-auto px-4 py-20 bg-white text-black">
-      <h2 className="uppercase text-4xl font-light mb-6">These are my skills ..</h2>
-      <div className="grid grid-cols-2 sm:grid-cols-4 md:grid-cols-6 lg:grid-cols-8 gap-4 text-center">
+      <h2 className="uppercase text-4xl font-light mb-7 ">These are my skills ..</h2>
+      <div className="grid grid-cols-2 sm:grid-cols-4 md:grid-cols-6 lg:grid-cols-8 gap-6 text-center">
         {mySkills.map((skill) => (
           <SkillCard key={skill.name} name={skill.name} Icon={skill.Icon} />
         ))}

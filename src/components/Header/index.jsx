@@ -11,14 +11,14 @@ function Header() {
   return (
     <>
       <header>
-        <div className="max-w-6xl mx-auto px-4 py-5 flex justify-between items-center">
+        <div className="max-w-6xl mx-auto px-4 py-2 flex justify-between items-center">
           <NavButtons scrollToSection={scrollToSection} />
         </div>
       </header>
       <div>
         <div className="max-w-6xl mx-auto px-4 flex flex-col items-center">
           <div className="pb-10 pt-10 text-center">
-            <h1 className="text-4xl md:text-6xl pb-10 lg:text-8xl font-bold text-center">
+            <h1 className="pb-10 text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-bold text-center">
               <div className="inline-block md:block">Hi! I am a</div>
               <div className="inline-block md:block mt-2">
                 <span className="bg-[#e56258] text-white">Front-End</span> Developer
