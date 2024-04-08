@@ -2,9 +2,9 @@ import PropTypes from "prop-types";
 
 function SkillCard({ name, Icon }) {
   return (
-    <div className="flex flex-col  items-start space-y-2">
-      <Icon className="text-4xl md:text-5xl text-accentColor" />
-      <span className="text-md">{name}</span>
+    <div className="flex flex-col items-start space-y-2">
+      <Icon className="text-5xl md:text-6xl text-customColor " />
+      <span className="text-md lg:text-lg">{name}</span>
     </div>
   );
 }
