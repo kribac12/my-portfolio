@@ -5,6 +5,7 @@ import fabulousImage from "../../assets/images/fabulous-fiction.jpg";
 import fetchfriendsImage from "../../assets/images/fetchfriends.jpg";
 import buysphereImage from "../../assets/images/buysphere.jpg";
 import gavelgaloreImage from "../../assets/images/gavelgalore.jpg";
+import holidazeImage from "../../assets/images/holidaze.jpg";
 
 const projectsData = [
   {
@@ -35,6 +36,14 @@ const projectsData = [
     demoUrl: "https://fetchfriends-app.netlify.app/index.html",
     repoUrl: "https://github.com/Noroff-FEU-Assignments/project-exam-1-kribac12",
   },
+
+  {
+    title: "GavelGalore",
+    description: "A bidding website.",
+    imageUrl: gavelgaloreImage,
+    demoUrl: "https://gavelgalore.netlify.app/",
+    repoUrl: "https://github.com/Noroff-FEU-Assignments/project-exam-1-kribac12",
+  },
   {
     title: "BuySphere",
     description: "An e-commerce store.",
@@ -43,11 +52,11 @@ const projectsData = [
     repoUrl: "https://github.com/Noroff-FEU-Assignments/project-exam-1-kribac12",
   },
   {
-    title: "GavelGalore",
-    description: "A bidding website.",
-    imageUrl: gavelgaloreImage,
-    demoUrl: "https://gavelgalore.netlify.app/",
-    repoUrl: "https://github.com/Noroff-FEU-Assignments/project-exam-1-kribac12",
+    title: "Holidaze",
+    description: "My final exam, an accommodation booking website.",
+    imageUrl: holidazeImage,
+    demoUrl: "https://holidazing.netlify.app/",
+    repoUrl: "https://github.com/kribac12/holidaze",
   },
 ];
 
@@ -55,7 +64,7 @@ function Projects() {
   return (
     <section id="projects" className="px-4 py-20 mt-4 bg-lightColor text-black">
       <div className="max-w-6xl mx-auto">
-        <h2 className="uppercase text-4xl font-light mb-6">These are my projects ..</h2>
+        <h2 className="uppercase text-2xl md:text-4xl font-light mb-6">These are my projects ..</h2>
         <div className="grid grid-cols-1  md:grid-cols-2 gap-6">
           {projectsData.map((project, index) => (
             <ProjectCard
