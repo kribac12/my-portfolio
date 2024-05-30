@@ -34,7 +34,7 @@ const projectsData = [
     description: "A social media page.",
     imageUrl: fetchfriendsImage,
     demoUrl: "https://fetchfriends-app.netlify.app/index.html",
-    repoUrl: "https://github.com/Noroff-FEU-Assignments/project-exam-1-kribac12",
+    repoUrl: "https://github.com/kribac12/css-ca23",
   },
 
   {
@@ -42,14 +42,14 @@ const projectsData = [
     description: "A bidding website.",
     imageUrl: gavelgaloreImage,
     demoUrl: "https://gavelgalore.netlify.app/",
-    repoUrl: "https://github.com/Noroff-FEU-Assignments/project-exam-1-kribac12",
+    repoUrl: "https://github.com/kribac12/gavelgalore",
   },
   {
     title: "BuySphere",
     description: "An e-commerce store.",
     imageUrl: buysphereImage,
     demoUrl: "https://buysphere.netlify.app/",
-    repoUrl: "https://github.com/Noroff-FEU-Assignments/project-exam-1-kribac12",
+    repoUrl: "https://github.com/kribac12/kb-ecom-store",
   },
   {
     title: "Holidaze",
